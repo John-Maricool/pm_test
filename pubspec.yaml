@@ -80,7 +80,7 @@ flutter:
   fonts:
     - family: Mark-Pro
       fonts:
-        - asset: fonts/Mark-Pro.ttf
+        - asset: assets/fonts/Mark-Pro.ttf
   #       - asset: fonts/Schyler-Italic.ttf
   #         style: italic
   #   - family: Trajan Pro
