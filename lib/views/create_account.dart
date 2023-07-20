@@ -6,6 +6,7 @@ import 'package:pm_test/utils/custom_number_field.dart';
 import 'package:pm_test/utils/custom_password_field.dart';
 import 'package:pm_test/utils/custom_text_field.dart';
 import 'package:pm_test/utils/reusable_widgets.dart';
+import 'package:pm_test/views/homepage.dart';
 import 'package:pm_test/views/login.dart';
 
 class CreateAccount extends StatelessWidget {
@@ -116,7 +117,7 @@ class CreateAccount extends StatelessWidget {
               height: 55.h,
             ),
             defaultButton(() {
-              //  Get.to(LoginPage());
+              Get.to(HomePage());
             }, "Create account"),
             SizedBox(
               height: 10.h,

@@ -4,7 +4,7 @@ import 'package:get/get.dart';
 import 'package:pm_test/utils/app_color.dart';
 import 'package:pm_test/utils/reusable_widgets.dart';
 
-class AddTask extends StatelessWidget {
+class EditTask extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -91,7 +91,7 @@ class AddTask extends StatelessWidget {
                 SizedBox(
                   height: 25.h,
                 ),
-                defaultButton(() {}, "Add Task")
+                defaultButton(() {}, "Save")
               ])))),
     );
   }

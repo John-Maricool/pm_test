@@ -2,7 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
+import 'package:pm_test/models/project_repo.dart';
 import 'package:pm_test/views/on_boarding.dart';
+
+import 'models/task_repo.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
@@ -20,6 +23,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     loadFont();
+    ProjectRepo.setDummyProjects();
+    TaskRepo.setDummyTasks();
     return ScreenUtilInit(
       designSize: const Size(428, 902),
       minTextAdapt: true,

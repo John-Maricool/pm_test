@@ -7,6 +7,7 @@ import 'package:pm_test/utils/custom_password_field.dart';
 import 'package:pm_test/utils/custom_text_field.dart';
 import 'package:pm_test/utils/reusable_widgets.dart';
 import 'package:pm_test/views/create_account.dart';
+import 'package:pm_test/views/homepage.dart';
 
 class LoginPage extends StatelessWidget {
   @override
@@ -77,7 +78,9 @@ class LoginPage extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 Expanded(
-                  child: defaultButton(() {}, "Sign in"),
+                  child: defaultButton(() {
+                    Get.to(HomePage());
+                  }, "Sign in"),
                 ),
                 SizedBox(
                   width: 15.w,

@@ -27,7 +27,7 @@ Widget backButton(VoidCallback onPressed) {
     padding: EdgeInsets.all(7),
     decoration: BoxDecoration(
       shape: BoxShape.circle,
-      color: AppColors.whiteColor,
+      color: Colors.transparent,
       border: Border.all(color: Color(0xffF4F4F6), width: 2.0),
     ),
     child: InkWell(
